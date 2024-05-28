@@ -1,0 +1,18 @@
+.banner {
+    padding-top: 28px;
+
+    &-row {
+        width: 1080px;
+        height: 316px;
+        background-image: url(../../../images/banner-image.png);
+        @include flex(center, center);
+    }
+
+    &-title {
+        font-family: $main-font;
+        font-weight: 700;
+        font-size: 42px;
+        text-align: center;
+        color: $white-color;
+    }
+}
